@@ -1,0 +1,27 @@
+I test for if it will return exact first string and second string separated by a space
+I also test to see if it will fix grammar by setting first characters of names to upper case which it does not
+
+sample output: 
+test_my_name (__main__.TestCase) ... ok
+test_my_name_lower_case (__main__.TestCase) ... FAIL
+
+======================================================================
+FAIL: test_my_name_lower_case (__main__.TestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "c:\Users\pitts\Documents\School\Winter 2021\CS 362\Week 5\Homework 4\CS362-Homework4-Question-3\test_full_name.py", line 12, in test_my_name_lower_case
+    self.assertEqual(full_name.get_full_name("alex", "pitts"), "Alex Pitts")
+AssertionError: 'alex pitts' != 'Alex Pitts'
+- alex pitts
+? ^    ^
++ Alex Pitts
+? ^    ^
+
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.000s
+
+FAILED (failures=1)
+
+[Done] exited with code=1 in 0.08 seconds
+
