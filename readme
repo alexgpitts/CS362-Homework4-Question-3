@@ -2,6 +2,7 @@ I test for if it will return exact first string and second string separated by a
 I also test to see if it will fix grammar by setting first characters of names to upper case which it does not
 
 sample output: 
+test_empty (__main__.TestCase) ... ok
 test_my_name (__main__.TestCase) ... ok
 test_my_name_lower_case (__main__.TestCase) ... FAIL
 
@@ -19,7 +20,7 @@ AssertionError: 'alex pitts' != 'Alex Pitts'
 
 
 ----------------------------------------------------------------------
-Ran 2 tests in 0.000s
+Ran 3 tests in 0.000s
 
 FAILED (failures=1)
 

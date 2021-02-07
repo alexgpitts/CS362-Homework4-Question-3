@@ -11,6 +11,10 @@ class TestCase(unittest.TestCase):
     def test_my_name_lower_case(self):
         self.assertEqual(full_name.get_full_name("alex", "pitts"), "Alex Pitts")
 
+    #check if it will return space if you give it empty strings
+    def test_empty(self):
+        self.assertEqual(full_name.get_full_name("", ""), " ")
+
 
 
 if __name__ == '__main__':
